@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive abc sportu</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Dlaczego my?</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#academy" class="nav__link">O Akademii</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Zespół trenerów</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Cennik</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Kontakt</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="assets/img/home1.jpeg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle"> <img src="assets/img/favicon.png" alt="" ">  </span> 
+                        <h1 class=" home__data-title"> Akademia <b>Twojego <br> dziecka</b></h1>
+                        <a href="#" class="button">Zapisz się juz dziś</a>
+
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/ABCsportu" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/adam_bartkowski.cf/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">Nasi Trenerzy</span>
+                        <a href="" class="button button--flex button--link home__info-button">
+                            więcej <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info-overlay">
+                        <img src="assets/img/home2.jpeg" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">A.B.C Sportu </h2>
+                    <p class="about__description">to wykwalifikowana grupa trenerów, która pomaga zdobywać nowe
+                        umiejętności oraz stawiać pierwsze kroki na ścieżce sportowej Twojego dziecka.<br>
+                        To idealne miejsce na rozwój nie tylko w wymiarze fizycznym, ale także budowanie jego
+                        odpowiedzialności, kreatywności, zdolności społecznych i pewności siebie.
+                    </p>
+                    <a href="#" class="button">Zapisz się już dziś</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about1.jpeg" alt="" class="about__img-one">
+                    </div>
+
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about2.jpeg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Nasza <br> Wykwalifikowana<br> Kadra</h2>
+
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== DISCOVER 1 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/discover1.jpeg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Adam Bartkowski </h2>
+                            <span class="discover__description">Mogę zaakceptować porażkę. Każdemu coś się nie udaje.
+                                Ale nie mogę się zgodzić, żebym nie próbował.</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/discover2.jpeg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Jakub Mamcarz</h2>
+                            <span class="discover__description">Nie bój się dużego kroku. Nie pokonasz przepaści dwoma
+                                małymi.</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 3 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Trener 3</h2>
+                            <span class="discover__description">Czekam na prace od szefa Adama</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!--==================== ABOUT 2 ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Adam Bartkowski </h2>
+                    <p class="about__description">
+                        • absolwent poznańskiego AWF na kierunku Wychowanie fizyczne ze specjalizacją Piłka nożna oraz
+                        przygotowanie motoryczne <br>
+                        • instruktor sportu <br>
+                        • instruktor Crossfit lvl 1 <br>
+                        • trener przygotowania fizycznego <br>
+                        • wychowawca kolonijny <br>
+                        • instruktor snowboardu <br>
+                        • czynny zawodnik crossfit <br>
+                        • amator sportów wodnych, oraz sportów walki
+
+                    </p>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about3.jpeg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== ABOUT 3 ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Jakub Mamcarz</h2>
+                    <p class="about__description">
+                        • absolwent poznańskiego UAM na wydziale Nauk Politycznych i Dziennikarstwa <br>
+                        • instruktor piłki nożnej <br>
+                        • kurs UEFA Grassroots C <br>
+                        • asystent w pierwszym zespole trampkarzy Polonii Środa Wlkp. <br>
+                        • Pierwszy trener trampkarzy Kłosa Zaniemyśl <br>
+                        • Wieloletni zawodnik Polonii Środa Wlkp.
+
+
+                    </p>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about4.jpeg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section">
+            <h2 class="section__title">300 <br> zadowolonych rodziców</h2>
+
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data">
+                        <h2 class="experience__number">5</h2>
+                        <span class="experience__description">Lat <br> doświadczenia</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">1000</h2>
+                        <span class="experience__description">zdobytych <br> bramek</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">150</h2>
+                        <span class="experience__description">przyszłych<br> piłkarzy</span>
+                    </div>
+                </div>
+
+                <div class="experience__img grid">
+                    <div class="experience__overlay">
+                        <img src="assets/img/experience1.jpeg" alt="" class="experience__img-one">
+                    </div>
+
+                    <div class="experience__overlay">
+                        <img src="assets/img/experience2.png" alt="" class="experience__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== VIDEO ====================-->
+        <section class="video section" id="academy">
+            <h2 class="section__title">O Akademii </h2>
+
+            <div class="video__container container">
+
+
+                <p class="about__description">Jesteśmy grupą wykwalifikowanych trenerów piłki nożnej z pasją do rozwoju
+                    i nauczania. Doświadczenie w pracy z dziećmi zdobywamy już od 5 lat. Akademia to coś więcej niż
+                    tylko treningi, to wspólne pokonywanie trudności oraz umiejętność pracy w zespole. <br>
+
+                    Nasza praca to duża odpowiedzialność, ale także przyjemność w kreowaniu i obserwacji rozwoju Waszych
+                    dzieci - w ujęciu fizycznym, motorycznym, emocjonalnym czy społecznym. <br>
+
+                    Akademia A.B.C Sportu daje każdemu dziecku okazję i przestrzeń do czerpania z aktywności fizycznej
+                    tego, co najlepsze, pod czujnym okiem naszego zespołu.
+                </p>
+                
+                <div class="experience__img grid">
+                    <div class="experience__overlay">
+                        <img src="assets/img/trening1.jpeg" alt="" class="experience__img-one">
+                    </div>
+
+                    <div class="experience__overlay">
+                        <img src="assets/img/experience2.png" alt="" class="experience__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== TRENING ====================-->
+        <section class="video section" id="treningi">
+            <h2 class="section__title">Treningi </h2>
+
+            <div class="video__container container">
+
+
+                <p class="about__description">Dziecko posiada idealne niczym nie zaburzone wzorce ruchowe. Siedzący tryb
+                    życia i deficyt ruchu sprawiają, że z czasem wszystkie ich cechy motoryczne ulegają osłabieniu, a
+                    nawet zanikają.
+                    Jak temu zaradzić?<br>
+                    Skorzystaj z zajęć A.B.C. Sportu! <br>
+                    Z reguły każdy trening to tylko 30 minut, w skład którego wchodzi część rozgrzewkowa, zadanie główne
+                    oraz gry i zabawy ruchowe. Chcemy, aby rozwój Twojego dziecka realizował holistyczne podejście:
+                    kładziemy nacisk na rozwój motoryki i poprawę ogólnej sprawności ruchowej. <br>Dzięki naszej
+                    akademii dzieci uczą się ruchu w każdej jego postaci, bawiąc się i spędzając produktywnie swój wolny
+                    czas.<br>
+
+                </p>
+
+            </div>
+        </section>
+              <!--==================== CONTACT ====================-->
+              <section class="video section" id="contact">
+                <h2 class="section__title">Kontakt </h2>
+    
+                <div class="video__container container">
+    
+    
+                    <p class="about__description">
+                        DLA KOGO: dzieci w wieku 4-6 lat<br>
+                        GDZIE: Środa Wlkp., Przedszkole Wesołe Urwiski, Przedszkole Tęczowa Kraina <br>
+                        KIEDY: do ustalenia <br>
+                        KONTAKT: 605-544-040 ; 533-740-823<br>
+    
+    
+                        Przedszkola w których odbywają się zajęcia (tu dopiszemy finalnie) <br>
+    
+                    </p>
+                    
+                   
+    
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/contact1.jpeg" alt="" class="experience__img-one">
+                        </div>
+    
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.png" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                
+            </section>
+
+        <!--==================== PLACES ====================-->
+        <section class="place section" id="place">
+            <h2 class="section__title">Akademia sportu Cennik</h2>
+
+            <div class="place__container container grid">
+                <!--==================== PLACES CARD 1 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place1.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">######</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">######</h3>
+                            <span class="place__subtitle">########</span>
+                            <span class="place__price">$######</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 2 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place2.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">######</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">######</h3>
+                            <span class="place__subtitle">######</span>
+                            <span class="place__price">######</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 3 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place3.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">######</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">######</h3>
+                            <span class="place__subtitle">######</span>
+                            <span class="place__price">######</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 4 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place4.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">######</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">######</h3>
+                            <span class="place__subtitle">######</span>
+                            <span class="place__price">######</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 5 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place5.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">######</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">######</h3>
+                            <span class="place__subtitle">######</span>
+                            <span class="place__price">######</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section" id="subscribe1">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">Chcesz otrzymywać oferty<br> Lub propozycje treningów?
+                    </h2>
+                    <p class="subscribe__description">ZAOSZCZĘDŹ 10% na pierwszym treningu Twojego dziecka
+                    </p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Enter email" class="subscribe__input">
+
+                        <button class="button">
+                            Subskrybuj
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SPONSORS ====================-->
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">A.B.C. Sportu</h3>
+                    <p class="footer__description">Tu nas Znajdziesz <br>
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/ABCsportu" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/adam_bartkowski.cf/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                       
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">O nas</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#about" class="footer__link">Dlaczego my?</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#academy" class="footer__link">O Akademii</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#contact" class="footer__link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Oferta</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#discover" class="footer__link">Zespół trenerów</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#place" class="footer__link">Cennik</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#subscribe1" class="footer__link">Dołącz do nas</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2022 Specjalnie dla Psa Adama od Pana Błażeja</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
